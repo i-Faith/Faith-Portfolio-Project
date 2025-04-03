@@ -1,0 +1,85 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+   background-image: url(https://images.pexels.com/photos/5760900/pexels-photo-5760900.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+   background-size: auto 100vh; 
+   background-position: left center; 
+   background-repeat:repeat;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.card {
+    background: rgb(227, 220, 202);
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #1c156b;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-decoration: underline;
+    font-weight: bold;
+;
+}
+
+p, a {
+    color: hsl(189, 77%, 10%);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: small;
+    font-family: sans-serif;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: hsl(211, 70%, 25%);
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid hsl(50, 89%, 71%);
+    border-radius: 5px;
+}
+
+form button {
+    width: 80%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #218838;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    margin: 10px;
+    color: #0c498a;
+}
+
+
